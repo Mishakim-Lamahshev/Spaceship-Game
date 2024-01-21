@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 1420002404}
   - component: {fileID: 1420002401}
   m_Layer: 0
-  m_Name: YouWin
+  m_Name: GameOver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You Win
+  m_text: Game Over
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -171,8 +171,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278382868
-  m_fontColor: {r: 0.07840417, g: 0.9433962, b: 0.008899986, a: 1}
+    rgba: 4278649585
+  m_fontColor: {r: 0.94509804, g: 0.007843137, b: 0.028313767, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 63.5
+  m_fontSize: 56.75
   m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -619,7 +619,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8.981707
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -766,7 +766,7 @@ MonoBehaviour:
     m_Name: Spawn
     m_Type: 1
     m_ExpectedControlType: 
-    m_Id: 161c6fd8-818d-4ffa-a35a-e90157176274
+    m_Id: 9f38f6cb-0204-41d6-846b-ddb20f7b33e2
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
@@ -796,7 +796,7 @@ Transform:
   m_GameObject: {fileID: 1363711266115907}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.11, y: -3.24, z: 0}
+  m_LocalPosition: {x: 0.11, y: -4.59, z: 0}
   m_LocalScale: {x: 0.648, y: 0.573, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

@@ -25,6 +25,7 @@
 # Visual Studio cache directory
 .vscode/
 itch/
+.editorconfig
 # Gradle cache directory
 .gradle/
 
